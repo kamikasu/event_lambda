@@ -1,0 +1,22 @@
+{
+  "name": "event_lambda",
+  "version": "1.0.0",
+  "description": "This example application creates an Amazon EventBridge event bus, an associated event rule, and a Lambda function. The SAM template accepts the external partner event source name as a parameter and creates these components. When the partner event source receives an event from a linked MongoDB database trigger, it triggers the rule and invokes a Lambda function that logs the payload into Amazon CloudWatch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamikasu/event_lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamikasu/event_lambda/issues"
+  },
+  "homepage": "https://github.com/kamikasu/event_lambda#readme",
+  "dependencies": {
+    "socket.io": "^4.5.2"
+  }
+}
