@@ -9,5 +9,5 @@ region = "us-east-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
 disable_rollback = true
-parameter_overrides = "PartnerEventSource=\"aws.partner/mongodb.com/stitch.trigger/5fc72367f2fc61489a394828\""
+parameter_overrides = "PartnerEventSource=\"aws.partner/mongodb.com/stitch.trigger/6329ba526156c1e4522f1401\""
 image_repositories = []
